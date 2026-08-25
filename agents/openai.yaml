@@ -1,0 +1,4 @@
+interface:
+  display_name: "E57 Building Model"
+  short_description: "Convert E57 scans into constrained 3D models"
+  default_prompt: "Use $e57-building-model to analyse this E57 scan and recommend a constrained SketchUp-ready model."

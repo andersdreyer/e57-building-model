@@ -112,19 +112,6 @@ python -m unittest discover -s tests -v
 
 The test suite uses synthetic numeric inputs only. Do not commit real E57 scans or project deliverables.
 
-## Publish to GitHub
-
-Before the first push, inspect the repository for private data and configure a public-safe Git author email, such as a GitHub no-reply address. Then create an empty public repository and push this directory:
-
-```bash
-git add .
-git commit -m "Initial open-source release"
-git remote add origin https://github.com/YOUR-ACCOUNT/e57-building-model.git
-git push -u origin main
-```
-
-Do not add a remote or push until the repository owner, visibility, and Git author email have been checked.
-
 ## License
 
 MIT. See [LICENSE](LICENSE).
